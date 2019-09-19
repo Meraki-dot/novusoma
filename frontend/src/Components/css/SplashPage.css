@@ -1,0 +1,88 @@
+#pageContainer {
+    font-family: 'Work Sans', sans-serif;
+}
+
+Parallax {
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 345px;
+    left: 600px;
+}
+
+#opaqueSquare {
+    background-color: white;
+    opacity: 0.65;
+    width: 710px;
+    height: 300px;
+    bottom: 490px;
+    top: 330px;
+    left: 590px;
+    position: absolute;
+}
+
+.imgRight {
+    margin-left: 50%
+}
+
+.imgLeft {
+    width: 50%
+}
+
+.contentRight, .contentLeft {
+    position: relative;
+    z-index: 100;
+    width: 700px;
+}
+
+.contentLeft {
+    text-align: left;
+    position: absolute;
+    left: -150px
+}
+
+.contentRight {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+}
+
+.contentTitleRight, .contentTitleLeft {
+    font-weight: bold;
+}
+
+.contentTitleRight {
+    margin-right: 32px;
+}
+#about {
+    bottom: -420px;
+    left: 60px;
+    position: absolute;
+}
+
+#feature1 {
+    margin-left: 1120px;
+    bottom: -1420px;
+    position: absolute;
+}
+
+#feature2 {
+    bottom: -2420px;
+    left: 60px;
+    position: absolute;
+}
+
+#feature3 {
+    margin-left: 1120px;
+    bottom: -3420px;
+    position: absolute;
+}
+
+#mainSignUp {
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}

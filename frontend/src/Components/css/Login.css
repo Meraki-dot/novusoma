@@ -1,0 +1,25 @@
+#loginContainer {
+    position: absolute;
+    left: 680px;
+    top: 200px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#loginCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#loginContainer strong {
+    position: absolute;
+    right: 225px;
+}
+
+#signInButton {
+    outline: none;
+    background-color: #20B2AA;
+    color: white;
+    margin-left: 375px;
+    border-radius: 5px;
+    padding: 3px;
+    width: 75px;
+}

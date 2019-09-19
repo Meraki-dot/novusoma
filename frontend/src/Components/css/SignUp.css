@@ -1,0 +1,145 @@
+html {
+    overflow: hidden;
+}
+
+#registerPageContainer {
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+#signUpLogo {
+    position: absolute;
+    left: 815px;
+    height: 120px;
+}
+
+#signUpContainer {
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    position: absolute;
+    top: 150px;
+}
+
+#infoContainer {
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    position: absolute;
+    right: -650px;
+    top: 150px;
+}
+
+#signUpContainer h1, #signUpContainer p {
+    font-weight: bold;
+}
+
+#infoContainer h1, #infoContainer p {
+    font-weight: bold;
+}
+
+#signUpCard, #infoCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#infoCard {
+    height: 500px;
+}
+
+#infoTitle {
+    position: absolute;
+}
+
+#info {
+    position: absolute;
+}
+
+#usernameBox {
+    height: 35px;
+    width: 480px;
+}
+
+#ageTitle {
+    position: absolute;
+    left: 300px;
+    top: 220px;
+}
+
+#ageBox {
+    height: 35px;
+    left: 300px;
+    top: 260px;
+    width: 200px;
+    position: absolute;
+}
+
+#genderTitle {
+    position: absolute;
+    top: 220px;
+}
+
+#genderBox {
+    height: 35px;
+    left: 20px;
+    top: 260px;
+    width: 200px;
+    position: absolute;
+}
+
+#heightTitle {
+    position: absolute;
+    top: 305px;
+}
+
+#heightBox {
+    height: 35px;
+    position: absolute;
+    top: 345px;
+    left: 20px;
+}
+
+#weightTitle {
+    position: absolute;
+    left: 300px;
+    top: 305px;
+}
+
+#weightBox {
+    height: 35px;
+    left: 300px;
+    top: 345px;
+    width: 200px;
+    position: absolute;
+}
+
+#birthdayTitle {
+    position: absolute;
+    left: 20px;
+    top: 390px;
+}
+
+#birthdayBox {
+    height: 35px;
+    background-color: white;
+    left: 20px;
+    top: 430px;
+    width: 200px;
+    position: absolute;
+}
+
+#registerButton {
+    margin-left: 395px;
+    outline: none;
+    background-color: #20B2AA;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    position: absolute;
+    right: 35px;
+    top: 420px;
+}
